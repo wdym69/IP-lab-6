@@ -1,6 +1,7 @@
 // Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css'
 
 export default function Navbar({ collegeName }) {
   return (
@@ -10,7 +11,7 @@ export default function Navbar({ collegeName }) {
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
-      <p>College: {collegeName}</p>
+      <p >College: {collegeName}</p>
     </nav>
   );
 };

@@ -1,0 +1,9 @@
+
+
+nav, nav>ul, li{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
